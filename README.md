@@ -1,7 +1,7 @@
 # k
 
 
-       ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=green)(https://opensource.org/licenses/Apache2.0)
+       ![License](https://img.shields.io/static/v1?label=license&message=MIT)(https://opensource.org/licenses/Apache2.0)
        
        
    ## Installation
