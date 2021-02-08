@@ -4,7 +4,7 @@
    (https://opensource.org/licenses/none)
        
    ## Table of Contents:
-   [Header](## Instiillation)
+   [Installation](## Installation)
    - [Usage details](## Usage details)
    - [Contributions](## Contributions)
    - [Testing](## Testing)
