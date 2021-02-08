@@ -4,12 +4,12 @@
    (https://opensource.org/licenses/none)
        
    ## Table of Contents:
-   [Installation](## Installation)
-   - [Usage details](## Usage details)
-   - [Contributions](## Contributions)
-   - [Testing](## Testing)
-   - [Acknowledgements](## Acknowledgements)
-   - [Questions](## Questions)
+   - [Installation](##installation)
+   - [Usage details](##usage-details)
+   - [Contributions](##contributions)
+   - [Testing](##testing)
+   - [Acknowledgements](##acknowledgements)
+   - [Questions](##questions)
 
    
 
