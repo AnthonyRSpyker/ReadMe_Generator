@@ -6,12 +6,12 @@
    (https://opensource.org/licenses/none)
        
    ## Table of Contents:
-    - [Header](##Instiillation)
-    - [Usage details](## Usage details)
-    - [Contributions](## Contributions)
-    - [Testing](## Testing)
-    - [Acknowledgements](## Acknowledgements)
-    - [Questions](## Questions)
+      - [Header](##Instiillation)
+      - [Usage details](## Usage details)
+      - [Contributions](## Contributions)
+      - [Testing](## Testing)
+      - [Acknowledgements](## Acknowledgements)
+      - [Questions](## Questions)
 
    
 
