@@ -67,8 +67,8 @@ const questions = () => inquirer.prompt([
    `# ${data.title}
 
 
-       ![License](${licenseRender})
-       (https://opensource.org/licenses/${licenseBadge})
+   ![License](${licenseRender})
+   (https://opensource.org/licenses/${licenseBadge})
        
        
    ## Installation
@@ -93,7 +93,7 @@ const questions = () => inquirer.prompt([
     
    ## Git Hub
        
-       ${data.username}
+       https://github.com/${data.username}
        
    ## Email address.
        

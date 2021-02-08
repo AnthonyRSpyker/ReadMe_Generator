@@ -1,35 +1,35 @@
 # ReadME Generator
 
 
-       ![License](https://img.shields.io/static/v1?label=License&message=Apache2.0&color=blue)
-       (https://opensource.org/licenses/Apache2.0)
+   ![License](https://img.shields.io/static/v1?label=License&message=Apache2.0&color=green)
+   (https://opensource.org/licenses/Apache2.0)
        
        
    ## Installation
        
-       Clone down this repository to your local machine.  Make sure to install the inquirer npm package and then you should be able to run it fine.
+       Clone Down this repository to your local machine.  Make sure to istall the inquirer package and then you should be able to run it through node.
        
    ## Usage details
        
-       Simply run node on the index.js file.  Once that is done follow the prompts to generate your read me file.
+       This is meant to be used as a template.  Run the index file in node and follow prompts.  It may be helpfull to write out what you want in a word processor and then copy and paste it.
        
    ## Contributions
        
-       If you are interested in contributing to this repository please issue a pull request.  Reviews will be done at the end of the week.  Make sure to open an issue if there is something you are interested in changing.
+       Any Contributions are welcome.  Please make a pull request and an issue for any major changes.
        
    ## Testing
        
-       Please perform any tests on a non commiting branch.
+       Please perform any tests on a non commiting branch.  If
        
    ## Acknowledgements
 
-       Thank you for checking out my app.  Use it any time.
+       Thanks for checking out my app.
     
    ## Git Hub
        
-       anthonyrspyker
+       https://github.com/anthonyrspyker
        
    ## Email address.
        
-       anthonyspyker@gmail.com
+       anthonspyker@gmail.com
        
