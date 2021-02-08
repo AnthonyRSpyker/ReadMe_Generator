@@ -1,17 +1,15 @@
 # ReadMe Generator
-
-
-
+   
    ![License](https://img.shields.io/static/v1?label=License&message=none&color=green)
    (https://opensource.org/licenses/none)
        
    ## Table of Contents:
-      - [Header](##Instiillation)
-      - [Usage details](## Usage details)
-      - [Contributions](## Contributions)
-      - [Testing](## Testing)
-      - [Acknowledgements](## Acknowledgements)
-      - [Questions](## Questions)
+   - [Header](## Instiillation)
+   - [Usage details](## Usage details)
+   - [Contributions](## Contributions)
+   - [Testing](## Testing)
+   - [Acknowledgements](## Acknowledgements)
+   - [Questions](## Questions)
 
    
 
