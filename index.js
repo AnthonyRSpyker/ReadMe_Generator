@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const markDown = require("./utils/generateMarkdown.js")
-const licenseChoice = []
+//const generateMarkdown = require("./utils/generateMarkdown.js");
+
+//const licenseChoice = []
 // TODO: Create an array of questions for user input
 const questions = () => inquirer.prompt([
     {
@@ -12,9 +13,24 @@ const questions = () => inquirer.prompt([
     },
     {
         type: 'input',
-        name: "discription",
-        message: "Discription: Mention; installation instructions, usage information, contribution guidelines, and test instructions"
+        name: "install",
+        message: "What is the installation instructions"
     },
+    {
+        type: 'input',
+        name: "usage",
+        message: "What is the usage information"
+    },
+    {
+        type: 'input',
+        name: "contribute",
+        message: "What are the Contribution guidelines"
+    },
+    {
+        type: 'input',
+        name: "test",
+        message: "What are the test instructions"
+    },    
     {
         name: "licensequestion",
         type: "list",
@@ -23,41 +39,70 @@ const questions = () => inquirer.prompt([
     },
     {
         type: "disctritption",
-        name: "liscencecolor",
+        name: "licensecolor",
         message: "What color would you like your liscence badge to be?"
     },    
     {
         type: "input",
-        name: "name",
+        name: "username",
         message: "What is your GitHub user name?"
     },
     {
         type: "input",
-        name: "name",
+        name: "email",
         message: "What is your email adress?"
     },
+])
+.then((data) => {
+    const licenseBadge = data.licensequestion;
+    const licenseColor = data.licensecolor
+    const licenseRender = `https://img.shields.io/badge/license-${licenseBadge}-${licenseColor}`
+
+   writeToFile(
+       `# ${data.title}
 
 
-]);
+       [![License](${licenseRender})]
+       (https://opensource.org/licenses/${licenseBadge})
+       
+       
+       ## ${data.install}
+       
+       ## ${data.usage}
+       
+       ## ${data.contribute}
+       
+       ## ${data.test}
+       
+       ## ${data.username}
+       
+       ## ${data.email}
+       `
+   )
+});
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+questions();
+function writeToFile(content) {
+    fs.writeFile("README.md", content, (err) =>
+    err ? console.error(err): console.log("Success!"))
+}
 
 // TODO: Create a function to initialize app
 // function init() {}
-const init = async () => {
-    console.log('hi');
-    try {
-      const answers = await questions;
+// const init = async () => {
+//     console.log('hi');
+//     try {
+//       const answers = await questions;
   
-      const readMe = markdown(data);
+//       const readMe = markDown(license);
   
-      await writeFileAsync('README.md', data);
+//       await writeFileAsync('README.md', license);
   
-      console.log('Successfully wrote to index.html');
-    } catch (err) {
-      console.log(err);
-    }
-  };
+//       console.log('Successfully wrote to index.html');
+//     } catch (err) {
+//       console.log(err);
+//     }
+//   };
 // Function call to initialize app
-init();
+//init();
