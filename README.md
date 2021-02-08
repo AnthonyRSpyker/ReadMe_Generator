@@ -1,6 +1,7 @@
 # ReadMe Generator
 
 
+<<<<<<< HEAD
    ![License](https://img.shields.io/static/v1?label=License&message=none&color=green)
    (https://opensource.org/licenses/none)
        
@@ -13,6 +14,13 @@
     - [Questions](## Questions)
 
    
+=======
+   ![License](https://img.shields.io/static/v1?label=License&message=None&color=green)
+   (https://opensource.org/licenses/Apache2.0)
+     
+       
+       
+>>>>>>> 86a087fc6311b935d7576c9d6084d152e9dd4480
    ## Installation
        
        Clone Down this repository to your local machine.  Make sure to install the inquirer package from npm and then you shouyld be able to run this applications through node.
