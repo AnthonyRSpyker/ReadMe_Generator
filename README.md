@@ -2,7 +2,8 @@
    
    ![License](https://img.shields.io/static/v1?label=License&message=none&color=green)
    (https://opensource.org/licenses/none)
-       
+   
+   Link to tutorial video: https://drive.google.com/file/d/1aNxjV35WoQdwXwMbIPQpJBv2GVZQCoF8/view
    ## Table of Contents:
    - [Installation](##installation)
    - [Usage details](##usage-details)
