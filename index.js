@@ -61,7 +61,7 @@ const questions = () => inquirer.prompt([
 .then((data) => {
     const licenseBadge = data.licensequestion;
     const licenseColor = data.licensecolor
-    const licenseRender = `https://img.shields.io/badge/license-${licenseBadge}-${licenseColor}.svg`
+    const licenseRender = `https://img.shields.io/static/v1?label=License&message=${licenseBadge}&color=${licenseColor}`
 
    writeToFile(
    `# ${data.title}

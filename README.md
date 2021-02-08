@@ -1,35 +1,35 @@
-# k
+# Read Me Generator
 
 
-       ![License](https://img.shields.io/badge/license-Apache2.0-k.svg)
+       ![License](https://img.shields.io/static/v1?label=License&message=Apache2.0&color=green)
        (https://opensource.org/licenses/Apache2.0)
        
        
    ## Installation
        
-       k
+       copy index.js and install npm packages that are required.
        
    ## Usage details
        
-       k
+       use at your own risk
        
    ## Contributions
        
-       k
+       Please make any push requests you think are appropriate.
        
    ## Testing
        
-       k
+       test it out have fun
        
    ## Acknowledgements
 
-       k
+       my mom
     
    ## Git Hub
        
-       k
+       anthonyrspyker
        
    ## Email address.
        
-       k
+       anthonyspyker@gmail.com
        
