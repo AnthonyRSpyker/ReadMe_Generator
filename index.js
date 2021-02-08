@@ -35,7 +35,7 @@ const questions = () => inquirer.prompt([
         name: "licensequestion",
         type: "list",
         message: "Choose your liscence",
-        choices:["Apache 2.0", "Boost Software 1.0", "BSD 3-clause License", "BSD 2-Clause License", "Eclipse Public License 1.0", "GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3", "IBM Public License Version 1.0", "ISC License (ISC)", "The MIT License", "Mozilla Public License 2.0", " Attribution License (BY)", " Opend Database License (ODbl)", "Public Domain Dedication and License (PDDL)", "The Perl License", "the Artistic License 2.0", "SIL Open Font License 1.1", "The Unlicense", "The What the Fuch You Want to Public License", "The zlib/libpng License", "none"]
+        choices:["Apache2.0", "BoostSoftware1.0", "BSD-3--Clause", "BSD2--Clause", "EPL1.0", "GPLv3", "GPLv2", "AGPLv3", "LGPLv3", "FDLv1.3", "IPL1.0", "ISC", "MIT", "MPL2.0", "ODC_BY", "ODbl", "PDDL", "Perl", "Artistic2.0", "OFL1.1", "Unlicense", "WTFPL", "Zlib", "none"]
     },
     {
         type: "disctritption",
@@ -52,31 +52,52 @@ const questions = () => inquirer.prompt([
         name: "email",
         message: "What is your email adress?"
     },
+    {
+        type: "input",
+        name: "acknowledge",
+        message: "Would you like to acknowledge or that any one?"
+    }
 ])
 .then((data) => {
     const licenseBadge = data.licensequestion;
     const licenseColor = data.licensecolor
-    const licenseRender = `https://img.shields.io/badge/license-${licenseBadge}-${licenseColor}`
+    const licenseRender = `https://img.shields.io/badge/license-${licenseBadge}-${licenseColor}.svg`
 
    writeToFile(
-       `# ${data.title}
+   `# ${data.title}
 
 
-       [![License](${licenseRender})]
+       ![License](${licenseRender})
        (https://opensource.org/licenses/${licenseBadge})
        
        
-       ## ${data.install}
+   ## Installation
        
-       ## ${data.usage}
+       ${data.install}
        
-       ## ${data.contribute}
+   ## Usage details
        
-       ## ${data.test}
+       ${data.usage}
        
-       ## ${data.username}
+   ## Contributions
        
-       ## ${data.email}
+       ${data.contribute}
+       
+   ## Testing
+       
+       ${data.test}
+       
+   ## Acknowledgements
+
+       ${data.acknowledge}
+    
+   ## Git Hub
+       
+       ${data.username}
+       
+   ## Email address.
+       
+       ${data.email}
        `
    )
 });

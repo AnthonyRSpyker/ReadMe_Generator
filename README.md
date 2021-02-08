@@ -1,19 +1,35 @@
-# Read Me Generator!
+# k
 
 
-       [![License](https://img.shields.io/badge/license-GNU GPL v3-green)]
-       (https://opensource.org/licenses/GNU GPL v3)
+       ![License](https://img.shields.io/badge/license-Apache2.0-k.svg)
+       (https://opensource.org/licenses/Apache2.0)
        
        
-       ## To begin, you must do an node init. That will be folowed by installing the inquirer package.  Finally perform a npm install and then you sould be ready to run the porgram.  simply run a 'node index.js' in the console and follow the promps.
+   ## Installation
        
-       ## This is to be used as a framework for a read me.  It does not completely finish it.  formating and editiing may be necessary.
+       k
        
-       ## Please send all innitial controbution requests through git hub as pull requests.
+   ## Usage details
        
-       ## follow all oop test guidlines.
+       k
        
-       ## anthonyrspyker
+   ## Contributions
        
-       ## anthonyspyker@gmail.com
+       k
+       
+   ## Testing
+       
+       k
+       
+   ## Acknowledgements
+
+       k
+    
+   ## Git Hub
+       
+       k
+       
+   ## Email address.
+       
+       k
        
