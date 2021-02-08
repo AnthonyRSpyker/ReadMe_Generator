@@ -70,7 +70,15 @@ const questions = () => inquirer.prompt([
    ![License](${licenseRender})
    (https://opensource.org/licenses/${licenseBadge})
        
-       
+   ## Table of Contents:
+    - [Installation](## Instiillation)
+    - [Usage details](## Usage details)
+    - [Contributions](## Contributions)
+    - [Testing](## Testing)
+    - [Acknowledgements](## Acknowledgements)
+    - [Questions](## Questions)
+
+   
    ## Installation
        
        ${data.install}
@@ -91,13 +99,14 @@ const questions = () => inquirer.prompt([
 
        ${data.acknowledge}
     
-   ## Git Hub
+   ## Questions
        
-       https://github.com/${data.username}
+       If you have any questions please contact me
+       on my github, as follows.
+       https://github.com/${data.username}.
        
-   ## Email address.
-       
-       ${data.email}
+       Or contact me via email at,
+       ${data.email}.
        `
    )
 });
